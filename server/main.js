@@ -8,6 +8,14 @@ app.get('/vendors', function (req, res) {
   res.send(200);
 });
 
+app.post('/vendors', function (req, res) {
+  res.send(201);
+})
+
 app.get('/foods', function (req, res) {
-  res.send(200)
+  res.send(200);
+});
+
+app.post('/foods', function (req, res) {
+  res.send(201);
 });
